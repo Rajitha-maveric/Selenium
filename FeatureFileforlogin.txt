@@ -1,0 +1,10 @@
+Feature: Login functionality
+  User need to login OrangeHRM successfully
+
+
+  Scenario: Login functionality check
+    Given User is in the login page for OrangeHRM
+
+    When User enter valid credentials
+
+    Then User should be able to login
