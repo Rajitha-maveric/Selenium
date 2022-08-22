@@ -1,0 +1,9 @@
+Feature: To check performance functionality
+  User needs to checks performance of an employee
+
+
+  Scenario: Performance check of employee
+    Given User logged in to check performance of employee
+    And User select the option Employee tracker
+    When User select view option
+    Then User should be able to select add log option
