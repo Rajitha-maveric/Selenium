@@ -1,0 +1,8 @@
+Feature: To check My info Functionality
+  User need to edit personal details and save it
+
+
+  Scenario: To edit personal information and save it successfully
+    Given User logged in to edit personal information
+    When User edits some personal details
+    Then User should be able to save it

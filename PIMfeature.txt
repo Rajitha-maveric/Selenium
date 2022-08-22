@@ -1,0 +1,14 @@
+#Pim Orange feature File:
+
+Feature: To check PIM fuunctionality
+  User need to select PIM
+
+
+  Scenario: For checking PIM functionality
+    Given User logged in to use PIM feature
+
+    When user clicks on PIM
+
+    And User enter some values
+
+    Then User should be able to search it
